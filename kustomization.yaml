@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
   - ./overlays/dev
-  # - ./overlays/prod
+  - ./overlays/prod
