@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: flask-deployment-argocd
   namespace: flask-argocd
+  labels:
+    app: flask-app-argocd
 spec:
   replicas: 3
   # template:
