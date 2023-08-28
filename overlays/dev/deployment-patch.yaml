@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flask-deployment-argocd
+  name: flask-deployment-argocd-dev
   namespace: flask-argocd
   labels:
     app: flask-app-argocd
 spec:
   replicas: 3
-  # template:
-  #   spec:
-  #     containers:
-  #     - name: flask-app-argocd
-  #       env:
-  #       - name: ENVIRONMENT
-  #         value: dev
+  template:
+    spec:
+      containers:
+      - name: flask-app-argocd
+        env:
+        - name: ENVIRONMENT
+          value: dev
