@@ -6,7 +6,7 @@ images:
     newTag: latest
 
 patchesStrategicMerge:
-- deployment-patch.yaml
+  - deployment-patch.yaml
 
 resources:
   - ../../base
