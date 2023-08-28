@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: flask-deployment-argocd-dev
-  namespace: flask-argocd-dev
+  namespace: flask-argocd
   labels:
     app: flask-app-argocd-dev
 spec:
