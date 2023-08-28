@@ -8,5 +8,5 @@ images:
   - name: truongphamxuan/flask-docker
     newTag: latest
 
-patches:
+patchesStrategicMerge:
   - deployment-patch.yaml
