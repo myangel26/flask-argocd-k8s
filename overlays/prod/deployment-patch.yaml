@@ -7,10 +7,10 @@ metadata:
     app: flask-app-argocd
 spec:
   replicas: 1
-  template:
-    spec:
-      containers:
-      - name: flask-app-argocd
-        env:
-        - name: ENVIRONMENT
-          value: prod
+  # template:
+  #   spec:
+  #     containers:
+  #     - name: flask-app-argocd
+  #       env:
+  #       - name: ENVIRONMENT
+  #         value: prod
