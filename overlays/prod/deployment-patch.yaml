@@ -3,11 +3,14 @@ kind: Deployment
 metadata:
   name: flask-deployment-argocd
   namespace: flask-argocd
+  labels:
+    app: flask-app-argocd
 spec:
+  replicas: 1
   template:
     spec:
       containers:
-      - name: flask-app-argocd-prod
+      - name: flask-app-argocd
         env:
         - name: ENVIRONMENT
           value: prod
