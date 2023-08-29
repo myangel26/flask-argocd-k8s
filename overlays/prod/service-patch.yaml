@@ -4,4 +4,7 @@ metadata:
   name: flask-service-argocd
 spec:
   ports:
-  - nodePort: 32224
+    - protocol: TCP
+      port: 5000 #Service port
+      targetPort: 5000 #The port for the React.js application container
+      nodePort: 32224
