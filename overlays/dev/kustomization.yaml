@@ -6,7 +6,7 @@ resources:
 
 images:
   - name: truongphamxuan/flask-docker
-    newTag: latest
+    newTag: c141d9a
 
 patchesStrategicMerge:
   - deployment-patch.yaml
