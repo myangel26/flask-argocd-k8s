@@ -3,7 +3,7 @@ kind: Kustomization
 
 images:
   - name: truongphamxuan/flask-docker
-    newTag: c8d0ed0
+    newTag: c141d9a
 
 patchesStrategicMerge:
   - deployment-patch.yaml
