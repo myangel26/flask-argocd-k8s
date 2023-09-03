@@ -6,6 +6,7 @@ resources:
 
 images:
   - name: truongphamxuan/flask-docker
+    newName: truongphamxuan/flask-docker
     newTag: c141d9a
 
 patchesStrategicMerge:
