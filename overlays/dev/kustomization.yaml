@@ -7,7 +7,6 @@ resources:
 images:
 - name: truongphamxuan/flask-docker
   newName: truongphamxuan/flask-docker
-  newTag: f0723839c9c3ce86891568542ed1ea3e016dd468
 
 patchesStrategicMerge:
 - deployment-patch.yaml
